@@ -2,7 +2,7 @@ package frc.robot;
 import frc.robot.Commands;
 import frc.robot.Subsystems.intake;
 
-public class StopIntake extends frc.robot.Commands {
+public class StopIntake extends Command {
 
     public StopIntake() {}
 

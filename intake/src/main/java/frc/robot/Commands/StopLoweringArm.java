@@ -2,7 +2,7 @@ package frc.robot;
 import frc.robot.Commands;
 import frc.robot.Subsystems.intake;
 
-public class StopLoweringArm extends frc.robot.Commands {
+public class StopLoweringArm extends Command {
 
     public StopLoweringArm() {}
 
