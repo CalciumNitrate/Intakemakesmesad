@@ -1,7 +1,8 @@
 package frc.robot;
 import frc.robot.Commands;
+import frc.robot.Subsystems.intake;
 
-public class IntakeBalls extends frc.robot.Commands {
+public class IntakeBalls extends Command {
     
     private final double speed = 0.5;
 
@@ -9,7 +10,7 @@ public class IntakeBalls extends frc.robot.Commands {
 
     @Override
     public void execute() {
-        intake.setSuckSpeed(speed);
+        robot.intake.setSuckSpeed(speed);
     }
     
 }
