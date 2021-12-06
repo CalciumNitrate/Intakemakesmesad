@@ -20,4 +20,5 @@ public class intake {
         suckSpark.set(speed);
     }
 
+
 }
