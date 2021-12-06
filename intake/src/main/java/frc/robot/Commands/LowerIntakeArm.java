@@ -5,7 +5,9 @@ import frc.robot.Subsystems.intake;
 
 public class LowerIntakeArm extends Command{
     public final double speed = 0.9;
-    
+    public LowerIntakeArm(){
+        
+    }
     @Override
     public void initialize(){
     }
