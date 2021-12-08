@@ -1,5 +1,6 @@
-package frc.robot;
-import frc.robot.Commands;
+package frc.robot.Commands;
+
+import edu.wpi.first.wpilibj.command.Command;
 import frc.robot.Subsystems.intake;
 
 public class IntakeBalls extends Command {
@@ -11,6 +12,10 @@ public class IntakeBalls extends Command {
     @Override
     public void execute() {
         robot.intake.setSuckSpeed(speed);
+    }
+    @Override
+    public boolean isFinished(){
+        return true;
     }
     
 }
