@@ -22,5 +22,7 @@ public class LowerIntakeArm extends Command{
     }
 
     @Override
-    public void end(){ }
+    public void end(){
+        robot.intake.setArmSpeed(0);
+    }
 }
