@@ -9,7 +9,7 @@ public class Intake extends frc.robot.Subsystems {
 
     public intake() {
         this.armSpark = new CANSparkMax(1,kBrushless);
-        this.suckSpzark = new CANSparkMax(2,kBrushless);
+        this.suckSpark = new CANSparkMax(2,kBrushless);
     }
 
     public void setArmSpeed(double speed) {
