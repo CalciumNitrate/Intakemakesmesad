@@ -1,14 +1,13 @@
 package frc.robot.Commands;
 
-
 import edu.wpi.first.wpilibj.command.Command;
 import frc.robot.Subsystems.intake;
 
-import static frc.robot.Subsystems.intake.
+//import static frc.robot.Subsystems.intake
 
 public class LowerIntakeArm extends Command{
     
-    private final double SPEED = 0.9;
+    private final double speed = 0.9;
     
     @Override
     public void initialize(){
@@ -17,7 +16,7 @@ public class LowerIntakeArm extends Command{
 
     @Override
     public void execute(){
-        intake.setArmSpeed(SPEED);
+        intake.setArmSpeed(speed);
     }
 
     @Override

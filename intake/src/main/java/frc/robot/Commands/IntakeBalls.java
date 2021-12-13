@@ -12,6 +12,7 @@ public class IntakeBalls extends Command {
     public void execute() {
         Subsystem.intake.setSuckSpeed(speed);
     }
+
     @Override
     public boolean isFinished(){
         return true;
