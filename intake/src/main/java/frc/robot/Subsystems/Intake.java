@@ -2,7 +2,7 @@ package frc.robot.Subsystems;
 
 import com.revrobotics.CANSparkMax;
 
-public class intake extends frc.robot.Subsystems {
+public class Intake extends frc.robot.Subsystems {
 
     CANSparkMax armSpark;
     CANSparkMax suckSpark;
