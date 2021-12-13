@@ -10,7 +10,7 @@ public class IntakeBalls extends Command {
 
     @Override
     public void execute() {
-        Subsystem.intake.setSuckSpeed(speed);
+        Subsystem.Intake.setSuckSpeed(speed);
     }
 
     @Override
