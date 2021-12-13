@@ -16,7 +16,7 @@ public class LowerIntakeArm extends Command{
 
     @Override
     public void execute(){
-        intake.setArmSpeed(speed);
+        Subsystems.intake.setArmSpeed(speed);
     }
 
     @Override
