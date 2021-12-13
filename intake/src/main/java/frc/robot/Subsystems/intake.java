@@ -1,5 +1,5 @@
-package frc.robot;
-import frc.robot.Subsystems;
+package frc.robot.Subsystems;
+
 import com.revrobotics.CANSparkMax;
 
 public class intake extends frc.robot.Subsystems {
