@@ -1,6 +1,9 @@
 package frc.robot.Commands;
 
-public class StopIntakeBalls {
+import edu.wpi.first.wpilibj.command.Command;
+import frc.robot.Robot;
+
+public class StopIntakeBalls extends Command {
     @Override
     public void execute() {
         Robot.intake.setSuckSpeed(0);

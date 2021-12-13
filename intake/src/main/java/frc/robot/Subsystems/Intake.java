@@ -1,8 +1,8 @@
 package frc.robot.Subsystems;
-
+import edu.wpi.first.wpilibj.command.Subsystem;
 import com.revrobotics.CANSparkMax;
 
-public class Intake extends frc.robot.Subsystems {
+public class Intake extends Subsystem {
 
     CANSparkMax armSpark;
     CANSparkMax suckSpark;

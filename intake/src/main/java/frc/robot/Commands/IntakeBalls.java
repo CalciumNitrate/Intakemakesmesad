@@ -1,9 +1,7 @@
 package frc.robot.Commands;
 
 import edu.wpi.first.wpilibj.command.Command;
-import edu.wpi.first.wpilibj.command.Subsystem;
 import frc.robot.Robot;
-import frc.robot.Subsystems.intake;
 
 public class IntakeBalls extends Command {
     
